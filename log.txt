@@ -1,0 +1,25 @@
+===== Sessao iniciada: 2026-11-08 21:14:52 =====
+isadora[Key.tab]1234[Key.enter]
+minha familia se chama garcia
+ta rolando uma briga na empresa
+usuario[Key.tab]admin[Key.tab]P@ssw0rd123[Key.enter]
+www.meubanco-exemplo.com.br[Key.enter]
+agencia 0001 conta 45678-9[Key.enter]
+cartao 1234[Key.space]5678[Key.space]9012[Key.space]3456[Key.enter]
+pesquisar: como trocar senha do gmail[Key.enter]
+[Key.esc]
+===== Sessao encerrada: 2026-11-08 21:16:10 =====
+
+# -----------------------------------------------------------------------------
+# EXEMPLO DE RETORNO / LEITURA DO LOG
+#
+# O keylogger grava as teclas na ordem em que foram digitadas:
+#   - letras/numeros/simbolos  -> gravados como o proprio caractere
+#   - barra de espaco          -> um espaco " "
+#   - Enter                    -> quebra de linha
+#   - demais teclas especiais  -> no formato [Key.nome]  (ex.: [Key.tab])
+#
+# Repare o PERIGO demonstrado acima: em poucas linhas ja "vazaram" login,
+# senha (P@ssw0rd123), dados bancarios e informacoes pessoais. Esse e o
+# motivo de estudar o ataque -> para reconhecer e implementar a DEFESA.
+# -----------------------------------------------------------------------------
